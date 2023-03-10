@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 3.8rem;
+    nav {
+        width: 100%;
+        max-width: 121.6rem;
+        height: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul {
+            display: flex;
+            margin-right: 20rem;
+            li {
+                align-items: center;
+                &:not(:first-child){
+                    margin-left: 4.8rem;
+                }
+                a {
+                    img {
+                        margin-left: 1rem;
+                    }
+                    span {
+                        font-weight: 500;
+                        font-size: 1.6rem;
+                        line-height: 1.9rem;
+                        color: rgba(255, 255, 255, 0.7);
+                    }
+                }
+            }
+        }
+    }
+}
+
