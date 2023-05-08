@@ -1,2 +1,2 @@
-# c6bank-wireframe
+#bank-wireframe
 Wireframe of Catalog Bank
